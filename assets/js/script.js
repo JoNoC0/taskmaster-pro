@@ -136,7 +136,6 @@ $(".list-group").on("blur", "input[type='text']", function() {
   $(this).replaceWith(taskSpan);
 });
 
-// start on module 5.1.8
 
 // modal was triggered
 $("#task-form-modal").on("show.bs.modal", function() {
